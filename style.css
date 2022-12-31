@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Assits/4487149\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative ;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+    padding-top: 30px;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    border: 1px solid #305d91;
+    background: transparent;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #112A46;
+    font-family: Segoe UI;
+    transition: all 0.4s;
+}
+nav ul li a:hover{
+    background-color: #305d91 ;
+    color: #112A46;
+}
+.sub-menu{
+    display: none;
+}
+.navbar nav ul li :hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: #305d91 ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #d4a373;
+}
+.content p{
+    font-size: 20px;
+    color: #1C1515;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #a79b7c, #4d3939);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #112A46;
+    box-shadow: 3px 8px 22px rgba(58, 5, 5, 0.575);
+}
+.social-link{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-link a{
+    border: 0.5px solid #d4a373;
+    text-decoration: none;
+    color: #524436;
+    padding-right: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
